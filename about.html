@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+   
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+  <title>NYX Professional Make_up</title>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,100,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" type="text/css" href="css/galeri.css">
+
+  
+</head>
+
+<body>
+
+    
+    <header>
+		<a href="index.html"><img src="img/nyx.png" alt="logo" height="120" width="260"></a>
+		<h1> Collection</small></a></h1>
+		<div class="nav">
+			<ul>
+			  <li><a href="about.html">ABOUT</a></li>
+			  <li><a href="products.html">PRODUCTS</a></li>
+              <li><a href="#">CONTACT</a></li>
+             
+              </div>
+			</ul> 
+		  </div>
+	</header>
+
+
+    <div class="row">
+      <div class="content">
+        <div class="card">
+          <h2>BEAUTY <br> BEYOND <br> RULES</h2>
+              <img src="img/palette.jpg" alt="me" width="915">    
+                <p><br>
+                    In a world full of possibilities, the only thing that remains a rule is the perception of beauty. You are beautiful if you have the right set of eyes. You are beautiful if your lips have a certain hue of style. You are beautiful if your face have the right proportion of shape.
+                    <br><br><br>
+                    But honestly, <br><br><br>
+                    Has every one of us been truly right?
+                    <br><br><br>
+                    It's time to stop being right and take over your true beauty rights. Be free and show the world that freedom and expression is the communication around the world. It's time to live in a world where only beauty dominates us all.
+                    <br><br><br>
+                    The world needs a Make Over and it starts from you.
+                    <br><br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    NYX Professional Make-Up<br><br>
+                    Beauty Beyond Rules</p>
+    </div>
+
+      <div class="row">
+          <div class="content">
+              <div class="card">
+                  <h2>Comments</h2>
+                    <div class="comment-border">             
+                      <div class="comment-author">
+                        <p>JodieGanz</p>
+                      </div>
+                        <div class="comment-email">
+                          <p>jodiemotovloghd@gmail.com - 02/17/2019, 12:20:47 PM</p>
+                        </div>
+                          <div class="comment"><p>yayayayayayayayayayay</p>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+          
+
+      <div class="row">
+          <div class="content">
+              <div class="card">
+                    <div class="comment-border">             
+                      <div class="comment-author">
+                        <p>TimothyJordan</p>
+                      </div>
+                        <div class="comment-email">
+                          <p>jordan2724@gmail.com - 03/17/2019, 07:20:17 PM</p>
+                        </div>
+                          <div class="comment"><p>wkwkwkwkwkwkwkwkwkwkwkwkwwkw </p>
+                          </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                <div>
+                  <p id="para"></p> 
+                </div>
+                
+
+
+      <div class="row">
+        <div class="content">
+              <div class="card">
+                  <h2>Leave a Comment</h2>
+                      <div class="info">
+                          <label for="name">Your Name : </label>
+                              <br>
+                          <input id="name" type="text" name="Ntext" size="20" placeholder="Place your name here..." required="required">
+                            <br>
+                          <label for="email">Your Email : </label>
+                              <br>
+                          <input id="email" type="text" name="Ntext" size="30" placeholder="Place your email here..." required="required" onClick="validasiNama()">
+                              <br>
+                          <label for="komen">Your Comments : </label>
+                              <br>
+                          <textarea id="komen" name="Ntext" cols="30" rows="10" placeholder="Place your email here..." required="required" onClick="validasiEmail()">
+                          </textarea>
+                              <br>
+                          <input id="sent" type="submit" value="Add comment"> 
+                        </div>
+                </div>
+            </div>
+        </div></div>
+
+
+    <div class="lastrow">
+        <p style="text-align: center; color: whitesmoke; font-family:Georgia;">Copyright &copy; 2019. Created by MboelzInformatika</p>
+    </div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+</script>
+<!-- Validasi JavaScript -->
+<script>
+      /* fungsi validasi alphabet pada nama -->*/
+      function Alphabet(nilai, pesan) {
+          var nama = /^[a-zA-Z]+$/;
+          if(nilai.value.match(nama)) {
+              return true;
+          }
+          else {
+              alert(pesan);
+              nilai.focus();
+              return false;
+          }
+      }
+      // <!-- fungsi validasi Email
+      function cekEmail(nilai, pesan) {
+          var email = /^([a-zA-Z0-9_.+-])+@(([a-zA-Z0-9-])+.)+([a-zA-Z0-9]{2,4})+$/;
+          if(nilai.value.match(email)) {
+              return true;
+          }
+          else {
+              alert(pesan);
+              nilai.focus();
+              return false;
+          }
+      }
+     
+      function validasiNama() {
+          Alphabet(document.getElementById('name'), 'Nama harus berupa huruf semua!');
+          
+      }
+      function validasiEmail() {
+          cekEmail(document.getElementById('email'), 'Email tidak benar!');
+          
+      }
+</script>
+    
+<script>
+     setTimeout("alert('Already in-active 30s!')", 30000); 
+</script>
+
+<script src="js/script.js"></script>
+
+</body>
+
+</html>

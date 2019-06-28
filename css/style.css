@@ -1,0 +1,237 @@
+*{
+	padding:0; margin:0;
+}
+
+h2{
+	color: #ff4747;
+	font-family: 'Righteous';
+}
+
+p{
+	font-family: 'Voltaire', sans-serif;
+	color: #000000;
+	margin-right: 220px;
+}
+
+.pb{
+	font-family: 'Voltaire', sans-serif;
+	color:#ffffff;
+	margin-right: 220px;
+}
+
+small{
+	color: #b69877;
+}
+small a, 
+p a{
+	color: #b69877;
+	text-decoration: none;
+}
+
+/* Header */
+header{
+	background: #000000;
+	padding: 0px 10px;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+header a{
+	color: #dddddd;
+	text-decoration: none;
+}
+header img{
+	float: left;
+}
+header h1{
+	margin-top:20px;
+	margin-left:0px;
+	margin-bottom: 0px;
+	font-family: 'Righteous', cursive;
+}
+
+
+
+.nav{
+	margin-top: 0;
+    text-align: right;
+    padding: 0px;
+    cursor: pointer;
+
+}
+
+.nav ul{
+    list-style: none;
+    text-align: right;
+    display: inline-table;
+    padding: 0px;
+    font-family: 'Raleway', Sans-serif;
+    font-size: 14px;
+}
+
+.nav ul li{
+    float: left;
+    text-align: center;
+    padding: 0px;
+    width: 170px;
+}
+
+.nav ul li a{
+    display: block;
+    text-align: center;
+    color: #787278;
+    text-decoration: none;
+}
+.nav ul li a:hover{
+    color:#ffe6ff;
+    
+}
+
+.nav ul li{
+    position: relative;
+
+}
+
+
+/* Content */
+
+.page{
+	background: url(../img/eyes.jpg) right top no-repeat;
+	background-size: 45% 100%;
+}
+.one{
+	background-color: #ffffff;
+	background: url(../img/lips.jpg) right top no-repeat;
+	background-size: 45% 100%;
+}
+	.one .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+		
+	}
+		.one .page-container h2{
+			font-size: 4em;
+		}
+		.one .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+.two{
+	background-color: #000000;
+	
+}
+	.two .page-container{
+		position: absolute;
+		bottom: 100px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.two .page-container h2{
+			font-size: 4em;
+		}
+		.two .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+
+.three{
+	background-color: #036564;
+	background: url(../img/face.jpg) right top no-repeat;
+	background-size: 100% 100%;
+}
+	.three .page-container{
+		position: absolute;
+		bottom: 0px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.three .page-container h2{
+			font-size: 3em;
+		}
+		.three .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+		
+
+.three{
+	background-color: #036564;
+}
+	.three .page-container{
+		position: absolute;
+		bottom: 0px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.three .page-container h2{
+			font-size: 3em;
+		}
+		.three .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+
+
+.four{
+	background-color: #ffe6ff;
+}
+	.four .page-container{
+		position: absolute;
+		bottom: 0px;
+		margin-left: -400px;
+		left: 50%;
+		margin-bottom: 150px;
+		max-width: 650px;
+	}
+		.four .page-container h2{
+			font-size: 3em;
+		}
+		.four .page-container p{
+			padding: 20px 0;
+			line-height: 1.5em;
+		}
+		
+
+.footer {
+
+    padding: 10px;
+    width: 25%;
+    text-align: center;
+    background: white;
+    margin-top: 20px;
+    float: left;
+    
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.lastrow{
+	padding: 5px;
+	margin-left:0px;
+    margin-top: 465px;
+    text-align: center;
+    background: #000000;
+   
+		
+
+}
+
+		
